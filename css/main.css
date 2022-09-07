@@ -1,0 +1,146 @@
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  src: url("../fonts/applesdgothicneo-webfont.woff") format('woff'),
+       url("../fonts/applesdgothicneo-webfont.woff2") format('woff2');
+  font-weight: normal;
+  font-style: normal; 
+}    
+
+@import url(//db.onlinewebfonts.com/c/af573d25034c111598327fb4d8c11a5a?family=AppleSDGothicNeo);
+
+@import "//cdn.jsdelivr.net/npm/font-applesdgothicneo@1.0/all.min.css";
+
+html {
+  
+  font-size: 16px;
+}
+
+body, html {
+  height: 100%;
+  
+  color: #FFFFFF;
+  line-height: 1.42;
+}
+
+body {
+  margin: 0;
+}
+
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+}
+
+.container {
+  max-width: 1880px;
+  margin: 0 auto;
+}
+
+a {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+b {
+  color: #000000;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+	display: block;
+  max-width: 100%;
+}
+
+.wrapper__content {
+  position: relative;
+  background: url("../desktop/hero_desktop.png") center top no-repeat;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 650px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 1460px;
+  background: url("../desktop/top_desktop.png") center top no-repeat;
+}
+
+.header__container {
+  margin-top: 250px;
+  max-height: 740px;
+  min-width: 1288px;
+  background-image: url("../desktop/title_desktop.png");
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 1350px;
+  background: url("../desktop/bottom_desktop.png") center top no-repeat;
+}
+
+.about__container {
+  margin-top: 420px;
+}
+
+.about__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about__item {
+  width: 720px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.about__item:nth-child(2n + 1) {
+  margin-right: 380px;
+}
+
+.about__logo {
+  height: 100px;
+  width: 100px;
+  margin-right: 35px;
+  margin-bottom: 130px;
+}
+
+.about__item__title {
+  font-family: 'AG_Futura Bold', arial;
+  font-size: 70px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.about__item__text {
+  font-family: 'AppleSDGothicNeo';
+  font-size: 36px;
+  
+  color: rgb(118, 129, 46);
+}
+

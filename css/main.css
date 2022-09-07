@@ -32,7 +32,7 @@ body {
 }
 
 .container {
-  max-width: 1880px;
+  max-width: 1840px;
   margin: 0 auto;
 }
 
@@ -74,6 +74,7 @@ img {
 .wrapper__content {
   position: relative;
   background: url("../desktop/hero_desktop.png") center top no-repeat;
+  
 }
 
 .header {
@@ -85,10 +86,11 @@ img {
   width: 100%;
   min-height: 1460px;
   background: url("../desktop/top_desktop.png") center top no-repeat;
+  
 }
 
 .header__container {
-  margin-top: 250px;
+  margin-top: 210px;
   max-height: 740px;
   min-width: 1288px;
   background-image: url("../desktop/title_desktop.png");
@@ -100,6 +102,7 @@ img {
   width: 100%;
   min-height: 1350px;
   background: url("../desktop/bottom_desktop.png") center top no-repeat;
+  
 }
 
 .about__container {
@@ -109,7 +112,8 @@ img {
 .about__list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 0 10px;
 }
 
 .about__item {
@@ -132,9 +136,14 @@ img {
 
 .about__item__title {
   font-family: 'AG_Futura Bold', arial;
-  font-size: 70px;
+  font-size: 74px;
   font-weight: bold;
   text-transform: uppercase;
+  opacity: .5s;
+}
+
+.about__item__title:hover {
+  color: goldenrod;
 }
 
 .about__item__text {
